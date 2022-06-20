@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+ @apply bg-gradient-to-br from-indigo-200 via-red-200 to-yellow-100;
+ @apply h-screen w-screen;
+}
